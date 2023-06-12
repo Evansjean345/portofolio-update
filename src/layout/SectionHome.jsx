@@ -19,9 +19,9 @@ export default function SectionHome() {
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-white font-bold leading-tight">
               Hi I'm Evans
               <br />
-              Fullstack Web
+              Fullstack Developer
               <br />
-              and Mobile Developer
+              Mobile and Web
             </h1>
           </div>
         </div>
