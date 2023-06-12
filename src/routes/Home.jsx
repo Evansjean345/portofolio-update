@@ -78,7 +78,7 @@ export default function Home() {
                   }}
                   className=" font-bold active:text-slate-300 active:transition-all   sm:text-slate-200 hover:text-slate-400 text-2xl  transition-all lg:hover:text-3xl   cursor-pointer md:ml-10 pt-10 md:pt-0"
                 >
-                  <Link to="#">about</Link>
+                  <Link to="#">Technologies</Link>
                 </li>
                 <li
                   onClick={() => {
