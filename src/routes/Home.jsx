@@ -51,14 +51,14 @@ export default function Home() {
                 />
               </button>
               <ul
-                className={`flex text-3xl md:text-base items-center py-8 md:flex flex-col md:flex-row justify-center fixed md:relative top-0 bottom-0 left-0 right-0 bg-white md:bg-transparent  z-20`}
+                className={`flex text-3xl md:text-base items-center py-8 md:flex flex-col md:flex-row justify-center fixed md:relative top-0 bottom-0 left-0 right-0 bg-black md:bg-transparent  z-20`}
               >
                 <li
                   onClick={() => {
                     scrollToSection(home);
                     setShow(!show);
                   }}
-                  className=" font-bold active:text-slate-300 active:transition-all text-black sm:text-slate-200 hover:text-slate-400 lg:hover:text-3xl  text-2xl transition-all  cursor-pointer md:ml-10 pt-10 md:pt-0"
+                  className=" font-bold active:text-slate-300 active:transition-all  sm:text-slate-200 hover:text-slate-400 lg:hover:text-3xl  text-2xl transition-all  cursor-pointer md:ml-10 pt-10 md:pt-0"
                 >
                   <Link to="/">Home</Link>
                 </li>
@@ -67,7 +67,7 @@ export default function Home() {
                     scrollToSection(projets);
                     setShow(!show);
                   }}
-                  className=" active:text-slate-300 active:transition-all font-bold  text-black sm:text-slate-200 hover:text-slate-400 text-2xl  transition-all lg:hover:text-3xl   cursor-pointer md:ml-10 pt-10 md:pt-0"
+                  className=" active:text-slate-300 active:transition-all font-bold   sm:text-slate-200 hover:text-slate-400 text-2xl  transition-all lg:hover:text-3xl   cursor-pointer md:ml-10 pt-10 md:pt-0"
                 >
                   <Link to="#">Projets</Link>
                 </li>
@@ -76,7 +76,7 @@ export default function Home() {
                     scrollToSection(about);
                     setShow(!show);
                   }}
-                  className=" font-bold active:text-slate-300 active:transition-all  text-black sm:text-slate-200 hover:text-slate-400 text-2xl  transition-all lg:hover:text-3xl   cursor-pointer md:ml-10 pt-10 md:pt-0"
+                  className=" font-bold active:text-slate-300 active:transition-all   sm:text-slate-200 hover:text-slate-400 text-2xl  transition-all lg:hover:text-3xl   cursor-pointer md:ml-10 pt-10 md:pt-0"
                 >
                   <Link to="#">about</Link>
                 </li>
@@ -85,7 +85,7 @@ export default function Home() {
                     scrollToSection(contact);
                     setShow(!show);
                   }}
-                  className=" font-bold active:text-slate-300 active:transition-all text-black sm:text-slate-200 hover:text-slate-400   text-2xl transition-all lg:hover:text-3xl cursor-pointer md:ml-10 pt-10 md:pt-0"
+                  className=" font-bold active:text-slate-300 active:transition-all  sm:text-slate-200 hover:text-slate-400   text-2xl transition-all lg:hover:text-3xl cursor-pointer md:ml-10 pt-10 md:pt-0"
                 >
                   <Link to="#" className="">
                     Contact
